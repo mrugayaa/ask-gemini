@@ -1,16 +1,37 @@
-# React + Vite
+# Ask Gemini ✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple AI-powered chatbot built using Google's Gemini API. Ask questions and receive AI-generated responses through an interactive web application.
 
-Currently, two official plugins are available:
+## Features
+- Ask Gemini questions and receive AI-generated responses.
+- View conversation history during your session.
+- Loading indicators while Gemini generates responses.
+- Error handling for unsuccessful requests.
+- Responsive, clean user interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+- **Frontend:** React, JavaScript, CSS, Vite
+- **Backend:** Node.js, Express
+- **AI:** Google Gemini API
+- **Deployment:** Vercel (frontend), Render (backend)
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Clone the repository:
+   `git clone https://github.com/mrugayaa/ask-gemini.git`
 
-## Expanding the ESLint configuration
+2. Install dependencies:
+   `npm install`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. Create a `.env` file inside the `server` folder and add your Gemini API key:
+   `GEMINI_API_KEY=your_api_key_here`
+
+4. Start the backend from the `server` directory:
+   `node index.js`
+
+5. Start the frontend from the project root:
+   `npm run dev`
+
+## What I Learned
+
+Through this project, I gained hands-on experience with React, backend development, API integration, environment variables, GitHub, and deploying a full-stack application.
