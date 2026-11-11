@@ -18,8 +18,7 @@ function App() {
     setAnswer('')
 
     try {
-      const response = await fetch('http://localhost:3000/ask', {
-        method: 'POST',
+      const response = await fetch('https://ask-gemini-r343.onrender.com/ask', {        method: 'POST',
         headers: {
           'Content-Type': 'application/json'
         },
